@@ -29,4 +29,6 @@ def email_alert(to, subject, body):
 
 if __name__ == "__main__":
     to = input("Enter the email address : ")
-    email_alert(to, "Hey", "Hello world!")
+    subject = input("Enter the subject : ")
+    body = input("Enter the body of your email : ")
+    email_alert(to, subject, body)
